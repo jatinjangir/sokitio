@@ -1,7 +1,7 @@
 
 const express = require('express')
 const path = require('path')
-const socketio = require('../lib/socket.io')
+const socketio = require('socket.io')
 const http = require('http')
 
 const app = express()
